@@ -1,8 +1,0 @@
-RewriteEngine On
-
-RewriteCond %{HTTPS_HOST} ^www.dueibits.com
-
-RewriteRule ^.*$ https://dueibits.com//%{REQUEST_URI} [R=301,L]
-RewriteEngine On
-RewriteCond %{TIME_YEAR} ^2024$
-RewriteRule ^.*$ - [F,L]
